@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>block-round</title>
+  <style>
+    /*body{*/
+    /*  background-color: #e5af90;*/
+    /*}*/
+    *{
+      margin: 0;
+    }
+    .all{
+
+      height: 500px;
+      background-color: #e5af90;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+
+    }
+    .block {
+      width: 100px;
+      height: 100px;
+      background-color: #e3153b;
+      transition: all 1s;
+    }
+      .block:hover {
+        background-color: #717895;
+        border-radius: 50%;
+        /*transition: 1s;*/
+      }
+
+  </style>
+</head>
+<body>
+<div class="all">
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+</div>
+
+
+</body>
+</html>

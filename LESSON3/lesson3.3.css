@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+section {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  /*--------------------почему этот gap не срабатывает? какую переменную нужно изменить?------------------*/
+  /*gap: 50px;*/
+  box-sizing: border-box;
+  padding: 50px;
+}
+section p{
+  font-size: 14px;
+  padding-top: 16px;
+  text-align: center;
+  width: 80%;
+
+}
+h2{
+  text-align: center;
+ padding-top: 20px;
+}
+
+#hat{
+  background-color: #36efab;
+  height: 100vh;
+
+}
+#middle{
+  background-color: #99ee90;
+  height: 100vh;
+
+}
+#leg{
+  background-color: #2e5c2e;
+  height: 100vh;
+}
+
+a{
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: black;
+  /*-------------eсли не работает gap------------*/
+  box-sizing: content-box;
+  padding: 30px 0;
+
+
+
+}
+/*--------------------почему этот gap не срабатывает? какую переменную нужно изменить?------------------*/
+
+/*a{*/
+/*  column-gap: 20px;*/
+/*}*/
+/*.everybody{*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  flex-direction: column;*/
+/*  text-align: center;*/
+

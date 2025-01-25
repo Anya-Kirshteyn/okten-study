@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+}
+
+div{
+  margin: 20px;
+  background: #8f87d1;
+  border-radius: 10px;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  border: #6d54c6 solid 4px;
+}
+/*section{*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+div.one>ul>li:nth-child(even){
+  color: pink;
+}
+div.two>ul>li:nth-child(odd){
+  font-size: 22px;
+}
+div.tree>ul>li:nth-child(2n+4)::after{
+  content: "!";
+}
+div.four>ul>li:last-child{
+  color: purple;
+}
+div.five>ul>li:first-letter{
+  font-size: 30px;
+  color: red;
+
+}
+

@@ -1,0 +1,13 @@
+@media screen and (max-width: 481px){
+ .wrapper{
+   width: 375px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+ }
+  .card{
+    width: 343px;
+    padding-top: 32px;
+  }
+}

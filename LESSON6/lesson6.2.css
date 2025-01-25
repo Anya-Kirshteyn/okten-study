@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+}
+body{
+  background: lightseagreen;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registration-page{
+  width: 37vw;
+  height: 50vh;
+  background: rgb(250, 250, 251);
+  border-radius: 10px;
+}
+.registration-page div:nth-child(1){
+  background: rgba(170, 223, 241, 0.62);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+
+}
+.registration-page div:nth-child(1) h2{
+  font-size: 30px;
+  font-weight: 300;
+
+}
+
+.registration-page form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+input[type="password"]{
+  width: 30vw;
+  height: 5vh;
+  margin-top: 50px;
+}
+input[type="text"]{
+  width: 30vw;
+  height: 5vh;
+  margin-top: 35px;
+}
+.registration-page>form>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 15px;
+}
+input[type="submit"]{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  outline: black 1px solid;
+  border: none;
+}
+
+
+
+
+/*body>div>div>h2{*/
+/*  background: #2e5c2e;*/
+/*}*/

@@ -1,0 +1,20 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .open-page{
+    width: 720px;
+  }
+.Nicole-cards{
+  width: 218px;
+
+
+}
+  .Nicole-firs-row, .Nicole-second-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    gap: 32px;}
+  .Nicole-cards:nth-child(2) h3:nth-child(2){
+    /*color: #6d54c6;*/
+    margin:0;
+  }
+}

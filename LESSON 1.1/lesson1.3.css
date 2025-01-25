@@ -1,0 +1,20 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+background-size: cover;
+  background-position: center;
+}
+h1{
+  margin-left: 10%;
+  background-color:rgba(247, 240, 237, 0.9);
+  display: block;
+  width: 60%;
+  padding:16px;
+
+}
+p{
+  padding: 16px;
+  margin-left: 10%;
+  background-color:rgba(247, 240, 237, 0.9);
+  display: block;
+  width: 60%;
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width:481px) and (max-width: 768px){
+  .wrapper{
+    width: 768px;
+    flex-flow: row wrap;
+    gap: 0;
+
+
+  }
+  .card{
+    width: 348px;
+  }
+
+}

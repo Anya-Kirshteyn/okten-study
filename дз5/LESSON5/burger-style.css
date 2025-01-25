@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #1E1E1E;
+}
+.wraper{
+  width: 1340px;
+  margin: 0 auto;
+}
+nav{
+  padding-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 59px;
+}
+ ul li a{
+   color: #E9E3DC;
+   font-family: "Bowlby One", serif;
+   font-weight: 400;
+   font-size: 18px;
+   text-transform: uppercase;
+   text-decoration: none;
+ }
+ .open-page{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 203px;
+   height: 60px;
+   background: #B3A0CD;
+   color: #1E1E1E;
+ }
+ .title-top{
+   color: #E9E3DC;
+   width: 1255px;
+   margin: 72px auto 33px auto;
+   font-family: "Bowlby One", serif;
+   font-size: 108px;
+   font-weight: 400;
+   line-height: 95px;
+   letter-spacing: -0.02em;
+   text-align: center;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+
+ }
+ .burgers-attraction{
+   display: block;
+   margin: 0 auto;
+ }
+ .lorem-burger-section{
+   width: 1340px;
+   height: 369px;
+   gap: 28px;
+   border-radius: 30px;
+   border: 4px solid #1E1E1E;
+   background: #D1EF53;
+   margin-top: 32px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .lorem-burger-section h2{
+   /*margin: 98px 698px 85px 109px;*/
+   width: 533px;
+   color: #1E1E1E;
+   font-family: "Bowlby One", serif;
+   font-size: 70px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 88.896%;
+   letter-spacing: -1.4px;
+   text-transform: uppercase;
+ }
+#about-lorem-burgers p{
+  margin-bottom: 34px;
+  color: #1E1E1E;
+  width: 521px;
+  height: 75px;
+  font-family: Inter, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 139.896%;
+  letter-spacing: -0.48px;
+}
+#about-lorem-burgers button{
+  width: 176px;
+  height: 60px;
+  border: 4px solid #1E1E1E;
+  background: #E9E3DC;
+  box-shadow: 8px 8px 0 0 #000;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: "Bowlby One", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.896%;
+  text-transform: uppercase;
+}
+.popular-items{
+  width: 100%;
+  padding: 64px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.foot{
+  width: 895px;
+  margin: 64px 222px 33px 222px;
+  color: #E9E3DC;
+  text-align: center;
+  font-family: "Bowlby One", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.896%;
+  text-transform: uppercase;
+}
+.order-now{
+  width: 196px;
+  height: 60px;
+  background: #D1EF53;
+  color: #1E1E1E;
+  text-align: center;
+  font-family: "Bowlby One", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.896%; /* 17.441px */
+  text-transform: uppercase;
+  margin: 0 62px 36px 604px;
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px){
+  body{
+    /*background: #6d54c6;*/
+  }
+  .open-page{
+    width: 343px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .Nicole-firs-row, .Nicole-second-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 40px;}
+
+}

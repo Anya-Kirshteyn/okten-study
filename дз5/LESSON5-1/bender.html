@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Option one</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_/favicon-16x16.png">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-image: linear-gradient(to right, rgb(230, 147, 52), rgb(202, 78, 32), rgb(207, 22, 22));
+    }
+    img{
+      width: 300px;
+      height: 300px;
+      animation: rotate 5s ease-in infinite alternate;
+      display: flex;
+      margin: 25vh auto;
+    }
+    @keyframes rotate {
+      from
+      {transform: rotate(0deg);}
+      40% {
+        transform: translate(-100vw, -100vh);}
+      60%{
+        transform: translate(100vw, 100vh);
+      }
+    to
+    {transform: rotate(360deg);}
+    }
+  </style>
+</head>
+<body>
+<div class="crabi">
+  <img src="earth.webp" alt="crab">
+</div>
+</body>
+</html>
